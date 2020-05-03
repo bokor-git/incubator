@@ -24,6 +24,7 @@ const addTodo=(value:string):void=>{
 const del = (id:never):void=>{
    setTodos(todos.filter((td:Todo) => td.id!== id))
 }
+
 const check = (id:number)=>{
        setTodos(todos.map((todo:Todo)=>{if (todo.id===id){todo.completed=!todo.completed}
         return todo}))
