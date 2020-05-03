@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/git@github.com:bokor-git/incubator.git/static/css/main.752745cc.chunk.css",
-    "main.js": "/git@github.com:bokor-git/incubator.git/static/js/main.94bd2c0a.chunk.js",
-    "main.js.map": "/git@github.com:bokor-git/incubator.git/static/js/main.94bd2c0a.chunk.js.map",
-    "runtime-main.js": "/git@github.com:bokor-git/incubator.git/static/js/runtime-main.c5da8bca.js",
-    "runtime-main.js.map": "/git@github.com:bokor-git/incubator.git/static/js/runtime-main.c5da8bca.js.map",
-    "static/js/2.d86acbd0.chunk.js": "/git@github.com:bokor-git/incubator.git/static/js/2.d86acbd0.chunk.js",
-    "static/js/2.d86acbd0.chunk.js.map": "/git@github.com:bokor-git/incubator.git/static/js/2.d86acbd0.chunk.js.map",
-    "index.html": "/git@github.com:bokor-git/incubator.git/index.html",
-    "precache-manifest.f4c773659f55e3c48d10f4388e24442e.js": "/git@github.com:bokor-git/incubator.git/precache-manifest.f4c773659f55e3c48d10f4388e24442e.js",
-    "service-worker.js": "/git@github.com:bokor-git/incubator.git/service-worker.js",
-    "static/css/main.752745cc.chunk.css.map": "/git@github.com:bokor-git/incubator.git/static/css/main.752745cc.chunk.css.map",
-    "static/js/2.d86acbd0.chunk.js.LICENSE.txt": "/git@github.com:bokor-git/incubator.git/static/js/2.d86acbd0.chunk.js.LICENSE.txt"
+    "main.css": "/incubator.git/static/css/main.752745cc.chunk.css",
+    "main.js": "/incubator.git/static/js/main.56b6556c.chunk.js",
+    "main.js.map": "/incubator.git/static/js/main.56b6556c.chunk.js.map",
+    "runtime-main.js": "/incubator.git/static/js/runtime-main.91476b10.js",
+    "runtime-main.js.map": "/incubator.git/static/js/runtime-main.91476b10.js.map",
+    "static/js/2.d86acbd0.chunk.js": "/incubator.git/static/js/2.d86acbd0.chunk.js",
+    "static/js/2.d86acbd0.chunk.js.map": "/incubator.git/static/js/2.d86acbd0.chunk.js.map",
+    "index.html": "/incubator.git/index.html",
+    "precache-manifest.62578bddba3daa040e218fbb918b5d1d.js": "/incubator.git/precache-manifest.62578bddba3daa040e218fbb918b5d1d.js",
+    "service-worker.js": "/incubator.git/service-worker.js",
+    "static/css/main.752745cc.chunk.css.map": "/incubator.git/static/css/main.752745cc.chunk.css.map",
+    "static/js/2.d86acbd0.chunk.js.LICENSE.txt": "/incubator.git/static/js/2.d86acbd0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5da8bca.js",
+    "static/js/runtime-main.91476b10.js",
     "static/js/2.d86acbd0.chunk.js",
     "static/css/main.752745cc.chunk.css",
-    "static/js/main.94bd2c0a.chunk.js"
+    "static/js/main.56b6556c.chunk.js"
   ]
 }
