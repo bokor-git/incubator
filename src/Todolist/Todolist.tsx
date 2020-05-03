@@ -34,6 +34,8 @@ const check = (id:number)=>{
         await setTodos(responce.data)
     }
    return <div className="todolist">
+       <h1>Todolist</h1>
+       <hr/>
         <Input value={value}
         setValue={setValue}
         addTodo={addTodo}
