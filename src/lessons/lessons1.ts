@@ -3,14 +3,12 @@ type State = {
     user: Array<{ name: string }>
 }
 
-
 export const state: State = {
     age: 23,
     user: [{name: "Alex"}]
 };
 
 export const sum = (a: number, b: number) => a + b
-/*
 
 type ShowTeamMemberType = {
     members: Array<string>
@@ -18,12 +16,11 @@ type ShowTeamMemberType = {
 type ShowTeamNameType = {
     name: string
 }
-
+//----------Lessons 1
 
 export const ShowTeamMember = (props: ShowTeamMemberType) => console.log("TeamMember : " + props.members)
-//export const ShowSitesNames = (props: ShowTeamNameType) => console.log("TeamName : " + props.name)
+export const ShowSitesNames = (props: ShowTeamNameType) => console.log("TeamName : " + props.name)
 //ShowTeamMember({members: ["Member1", "Member 2"]});
-//ShowTeamName({name: "Alex"})
 type ShowTeamType = {
     name: string
     members: Array<string>
@@ -38,7 +35,8 @@ const ShowTeam = (props: ShowTeamType) => {
 }
 //ShowTeam(props)
 
-//task 1
+//----------Task 1
+
 
 type ShowProfileTypes={
     profile:{
@@ -55,7 +53,7 @@ function ShowProfile(props1:ShowProfileTypes) {
 
 //ShowProfile({profile:{name:"Alex", age:23}})
 
-//task 2
+//----------Task 2
 
 
 type ShowPageTypes = {
@@ -77,13 +75,12 @@ const props2:ShowPageTypes = {
 }
 function ShowPage(props:ShowPageTypes) {
     ShowProfile({profile:props.profile}); // todo: передать правильные данные
-    //ShowSitesNames({name:props.name}); // todo: передать правильные данные
+    ShowSitesNames({name:props.name}); // todo: передать правильные данные
     ShowTeam(props); // todo: передать правильные данные
 }
-ShowPage(props2)
-*/
+//ShowPage(props2)
 
-//task 3
+//----------Task 3
 
 type ShowSitesNamesType = {
     sites:Array<{title:string}>
@@ -95,7 +92,7 @@ const props3:ShowSitesNamesType={
         {title:"Title3"}
     ]
 };
-function ShowSitesNames(props: ShowSitesNamesType) {
+function ShowSitesNamesMap(props: ShowSitesNamesType) {
     console.log("Sites: " + props.sites.map(s => s.title));}
 
-ShowSitesNames(props3)
+//ShowSitesNamesMap(props3)

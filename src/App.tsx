@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import TodoList from "./Todolist/Todolist";
-import {sum} from "./lessons"
+import {sum} from "./lessons/lessons1"
 
 console.log(sum(12, 34))
 
